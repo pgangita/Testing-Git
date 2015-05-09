@@ -2,3 +2,9 @@
     width:50%;
     margin: 0 auto;
 }
+
+.heading {
+    font-size:35px;
+    color: rgb(250,250,250);
+    font-family: "Rockwell";
+}
