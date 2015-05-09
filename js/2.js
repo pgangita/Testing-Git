@@ -6,3 +6,5 @@ var x = 25;
 var y = 35;
 
 var total = x + y;
+
+alert(total);
