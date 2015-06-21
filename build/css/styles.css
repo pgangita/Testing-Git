@@ -8,6 +8,10 @@
     color: rgb(250,250,250);
     font-family: "Rockwell";
 }
+
+.title {
+    color:yellow;
+}
 h1 {
     color:red;
 }
