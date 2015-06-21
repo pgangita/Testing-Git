@@ -7,12 +7,12 @@ module.exports = function(grunt) {
         grunt.initConfig({ //holds configurations for tasks
                 concat: {
                     js: {
-                          src: ["js/1.js", "js/2.js"], //.js files to concat
-                          dest: "build/js/scripts.js",
+                          src: ["js/1.js", "js/2.js"], //.js files gurnt looks to concat
+                          dest: "build/js/scripts.js",//concats both files into this one file
                         },
                     css: {
-                            src: ["css/main.css", "css/theme.css"], //.css files to concat
-                            dest: "build/css/styles.css",
+                            src: ["css/main.css", "css/theme.css"], //.css files grunt looks to concat
+                            dest: "build/css/styles.css",//concats both files into this one file
                         },
                     },
                 watch: {
@@ -28,7 +28,7 @@ module.exports = function(grunt) {
                  uglify: {
                     my_target: {
                         files: {
-                            'build/js/output.min.js': ['build/js/scripts.js']
+                            'build/js/output.min.js': ['build/js/scripts.js']//creates a minified file of the 2 concated .js files
                         }
                     }
                 }
